@@ -2,7 +2,7 @@
 has_children: true
 layout: default
 title: Documentation
-nav_order: 3
+nav_order: 4
 ---
 # Protocol
 Welcome to the documentation for the protocol used by the Kalavar data storage system.

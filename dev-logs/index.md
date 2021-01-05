@@ -2,7 +2,7 @@
 has_children: false
 layout: default
 title: Dev Logs
-nav_order: 2
+nav_order: 3
 ---
 # Development Log - Week 2 {#week-2}
 
