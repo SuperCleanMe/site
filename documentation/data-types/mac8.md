@@ -5,6 +5,7 @@ title: Mac8
 parent: Data Types
 grand_parent: Documentation
 nav_order: 19
+nav_exclude: true
 ---
 
 # Mac8
