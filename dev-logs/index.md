@@ -18,7 +18,7 @@ This week we achieved the first inter-process communication of our program. This
 Another major event that happened this week, which we dubbed our "RAMpocalypse". We managed to successfully track the amount of memory our CORE system was using at regular runtime intervals, allowing us to report that to the main system thread for the program. This may seem trivial, but it is a big victory for us in bringing Kalavar closer to production. You may not agree with us, but actually it is the primary method of the program deciding when to move things into and out of system memory to and from the disk.
 
 ## Parting Words {#week-2-parting-words}
-Although this weeks blog post was a short one, it was always going to be, we've been taking a break over the Christmas period, and although our last post was actually released on Christmas day, our writer had nothing better to do, nd so they threw it together for us. Work on the project since the 20th of December 2020 has been slow and uneventful up until this week, and we are hoping to ramp up our progress on the project as soon as we can. 
+Although this weeks blog post was a short one, it was always going to be, we've been taking a break over the Christmas period, and although our last post was actually released on Christmas day, our writer had nothing better to do, and so they threw it together for us. Work on the project since the 20th of December 2020 has been slow and uneventful up until this week, and we are hoping to ramp up our progress on the project as soon as we can. 
 
 Thanks for reading this weeks development log, we hope you have enjoyed it!
 
@@ -34,7 +34,7 @@ Like what you see? Star us on [GitHub](https://github.com/fatalcenturion/kalavar
 
 ## Meet Kalavar {#week-1-meet-kalavar}
 
-Hi everybody, in this dev log i wanted to take the time to introduce to you, our little project. We like to call it Kalavar and this is where you read the latest information and developer updates about the system, as we work our way towards a public alpha test release. We hope you enjoy this journey just as much as we will.
+Hi everybody, in this dev log I want to take the time to introduce to you, our little project. We like to call it Kalavar and this is where you read the latest information and developer updates about the system, as we work our way towards a public alpha test release. We hope you enjoy this journey just as much as we will.
 
 ## What is Kalavar? {#week-1-what-is-kalavar}
 Kalavar is an asynchronous, efficient, and secure database system, programmed using the [Rust](https://rust-lang.org) programming language and built upon the [Tokio](https://tokio.rs/) runtime.
