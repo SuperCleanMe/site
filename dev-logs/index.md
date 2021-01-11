@@ -4,12 +4,35 @@ layout: default
 title: Dev Logs
 nav_order: 3
 ---
+# Development Log - Week 3 {#week-3}
+
+## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
+### Posted on Monday, January 11th 2021
+
+## Nothing major, but still a worthy development blog {#week-3-nothing-but-worthy}
+The last 7 days of the project have been littered with a mixture of confusion, stress, and a lot of research. The project ground almost entirely to a halt after to beginning of the 2021 college session, this meant that I had to focus my time on college lectures rather than on Kalavar or any other projects which is unfortunate, but nothing we cannot work around. Lets see how we did this week.
+
+### A major rethink {#week-3-rethink}
+I spent a large amount of time asking my developer friends about their opinions on various methods of authenticating users between client and server. One of the ways which was suggested was actually from Reddit's [r/Rust community](https://reddit.com/r/rust), suggested by user [mleonhard in this comment](https://www.reddit.com/r/rust/comments/kqk95q/whats_everyone_working_on_this_week_12021/gihb1iu?utm_source=share&utm_medium=web2x&context=3), the suggestion was to use [mTLS](https://en.wikipedia.org/wiki/Mutual_authentication), a way of dropping passwords for cryptographically generated certificates for a user. This allows us to remove the security risk of database user password leaks, because the server doesnt need to store a password for the users, it challenges their authority during the authentication phase, where they must prove they have both components of the key in order to verify their identity, and perform any actions.
+Another thing which mTLS enables us to do, is to encode specific IP addresses into the certificates given to a user, allowing us to check the address in the certificate off against the address they connected from, if both match up then the user is able to connect, if they dont, the user will be denied because of the risk that it may be a third party attempting to gain unauthorised access though a leaked keychain.
+
+### *Bits* and bobs {#week-3-bits-and-bobs}
+I also spent a large amount of time working out how to implement storage management for everything from individual table cells, all the way up to entire databases, at once. During this time I came to a rather incredible discovery. Due to the way we intend to store data, there is the potential for a singular row to be up to 16,000 Petabytes in size, with the right hardware. It would take a hell of a long time to process *that* query though, so we obviously dont recommend attempting this at any point.
+
+### Parting words {#week-3-parting-words}
+So to summarise, this week we did some research on how to authenticate the identity of a user and validate they are allowed to connect without using passwords, and we also worked on calculating theoretical limitations of the storage management system, as well as beginning to implement said storage system.
+
+
+Like what you see? Star us on [GitHub](https://github.com/fatalcenturion/kalavar-core) to let us know!
+
+----- 
+
 # Development Log - Week 2 {#week-2}
 
 ## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
 ### Posted on Monday, January 4th 2021
 
-## A busy week, and a few important milestones {#week-2-a-buys-week}
+## A busy week, and a few important milestones {#week-2-a-busy-week}
 This past week, we achieved a number of first time events, which represent small victories in our battle against the computer to bring Kalavar to the public. First of these milestones was:
 ### The first inter-process communication {#week-2-first-communication}
 This week we achieved the first inter-process communication of our program. This communication was produced by the REPL and CORE components of the database. The REPL component had been heavily modified at the time compared to the build on our [repository](https://github.com/fatalcenturion/kalavar-repl), so naturally, we pushed the build which achieved this to the repository for archival purposes.
