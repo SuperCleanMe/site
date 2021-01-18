@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 ---
-[![Discord](https://img.shields.io/discord/792527699771129856)](https://discord.gg/jUGS8UsgUF) [![GitHub issues](https://img.shields.io/github/issues-raw/KalavarDB/core)](https://github.com/KalavarDB/core/issues) ![GitHub](https://img.shields.io/github/license/KalavarDB/core) [![GitHub Repo stars](https://img.shields.io/github/stars/KalavarDB/core)](https://github.com/KalavarDB/core/stargazers) [![GitHub watchers](https://img.shields.io/github/watchers/KalavarDB/core)](https://github.com/KalavarDB/core/watchers) ![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/KalavarDB/core/latest?sort=semver)
+![Continuous-Integration](https://github.com/KalavarDB/core/workflows/Continuous-Integration/badge.svg) [![Discord](https://img.shields.io/discord/792527699771129856)](https://discord.gg/jUGS8UsgUF) [![GitHub issues](https://img.shields.io/github/issues-raw/KalavarDB/core)](https://github.com/KalavarDB/core/issues) ![GitHub](https://img.shields.io/github/license/KalavarDB/core) [![GitHub Repo stars](https://img.shields.io/github/stars/KalavarDB/core)](https://github.com/KalavarDB/core/stargazers) [![GitHub watchers](https://img.shields.io/github/watchers/KalavarDB/core)](https://github.com/KalavarDB/core/watchers) ![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/KalavarDB/core/latest?sort=semver)
 
 Kalavar is a project attempting to bring a fast, efficient, secure, and __asynchronous__ query model to the modern database system. It is designed to be quick, and secure, from the very beginning without any of that additional configuration mess.
 
