@@ -4,6 +4,29 @@ layout: default
 title: Dev Logs
 nav_order: 3
 ---
+# Development Log - Week 4 {#week-4}
+
+## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
+### Posted on Monday, January 18th 2021
+
+## We launched a version checker {#week-4-version-checker}
+That's right, we spent more than a few hours of dev time on a version checking utility and the Rust community seems to like it! 
+The program which is part of our development environment has been made available on [crates.io](//crates.io/crates/version-checker) and it supports checking immediate dependencies, and first-level sub-dependencies. Here is a sample output of the program:
+![Sample Output](https://raw.githubusercontent.com/KalavarDB/site/main/assets/images/dev-logs/version-checker-0.1.13.png)
+
+We are incredibly proud of what we have produced with this utility, and we can only continue to make it better in the future
+
+## Developer documentation {#week-4-dev-docs}
+On top of the incredibly useful version checking utility, we also launched [dev.kalavar.cf](https://dev.kalavar.cf) which is an automatically updated version of our in-code documentation. This is updated with every push and the idea is that you will be able to use it to learn how things interact within Kalavar's source code.
+
+We hope you find the version checker, and the internal docs useful, we sure will!
+
+Thanks for reading, sorry this post was so short but there really wasn't much to share with you all. See you next week!
+
+Like what you see? Star us on [GitHub](https://github.com/fatalcenturion/kalavar-core) to let us know!
+
+----- 
+
 # Development Log - Week 3 {#week-3}
 
 ## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
