@@ -28,7 +28,7 @@ For the sake of not repeating the same thing many times over, the format for thi
 The naming convention to apply (see table above)
 
 #### Default
-`snake_case`
+`lower_snake_case`
 
 
 ## Force Convention
