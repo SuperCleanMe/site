@@ -28,3 +28,67 @@ The log configuration section defines which types of logs you would like to allo
 
 ### [Privacy](./privacy.md)
 This section allows you to determine if you send us any data to allow us to improve the products we are making for you. By default you do not send us any data, and it is an opt-in option, but because we like being clear about how we do things, we have written a complete breakdown of what each of the different privacy levels will provide us access to.
+
+
+### Sample configuration:
+This is the default configuration file as currently documented here.
+
+```toml
+[network]
+
+bind-port = 1234
+
+bind-address = "localhost"
+
+max-connections = 25
+
+accept-ranges = ["*"]
+
+
+[language]
+
+convention = "snake_case"
+
+force-convention = true
+
+
+database-convention = "snake_case"
+
+force-database-convention = true
+
+
+table-convention = "snake_case"
+
+force-table-convention = true
+
+
+column-convention = "snake_case"
+
+force-column-convention = true
+
+
+procedure-convention = "snake_case"
+
+force-procedure-convention = true
+
+
+[logs]
+path = "/var/lib/kalavar/logs"
+
+debug = true
+
+info = true
+
+log = true
+
+warn = true
+
+error = true
+
+log_to_file = true
+
+
+[privacy]
+mode = "none"
+
+```
