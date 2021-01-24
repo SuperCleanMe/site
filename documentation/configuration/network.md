@@ -2,7 +2,7 @@
 has_children: false
 layout: default
 title: Network
-parent: Network
+parent: Configuration
 grand_parent: Documentation
 nav_order: 1
 ---
