@@ -12,17 +12,17 @@ The privacy section of the configuration file provides you with a way to opt int
 
 |Data                       |None |Minimal|Basic|Detailed|
 |:-------------------------:|:---:|:-----:|:---:|:------:|
-|Kalavar version            |❌    |✅    |✅   |✅     |
-|CPU Make + Model           |❌    |✅    |✅   |✅     |
-|Logical CPU cores          |❌    |✅    |✅   |✅     |
-|Physical CPU cores         |❌    |✅    |✅   |✅     |
-|Host OS                    |❌    |✅    |✅   |✅     |
-|OS version                 |❌    |✅    |✅   |✅     |
-|Core Frequency             |❌    |❌    |✅   |✅     |
-|Disk overall usage*        |❌    |❌    |✅   |✅     |
-|Total system memory (RAM)**|❌    |❌    |✅   |✅     |
-|Disk partitions*           |❌    |❌    |❌   |✅     |
-|Swap usage (RAM dump)**    |❌    |❌    |❌   |✅     |
+|Kalavar version            |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|CPU Make + Model           |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Logical CPU cores          |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Physical CPU cores         |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Host OS                    |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|OS version                 |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Core Frequency             |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Disk overall usage*        |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Total system memory (RAM)**|![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Disk partitions*           |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Swap usage (RAM dump)**    |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
 
 
 \* Kalavar will never share any of your files with us via these settings, we will only be able to see how many megabytes of data your system has, and the number of partitions you have on it.
