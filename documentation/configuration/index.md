@@ -35,7 +35,7 @@ This is the default configuration file as currently documented here.
 
 ```toml
 [network]
-bind-port = 1234
+bind-port = 48173
 bind-address = "localhost"
 max-connections = 25
 accept-ranges = ["*"]

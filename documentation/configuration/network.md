@@ -15,7 +15,7 @@ The network configuration sectioncontrols who can or cannot connect to your data
 The port which the connection listener will attempt to bind to
 
 #### Default
-1234
+`48173`
 
 ## Bind Address
 #### Description
@@ -29,7 +29,7 @@ The address which the connection listener will attempt to bind to. `localhost` r
 The maximum number of concurrent connections to allow at a time.
 
 #### Default
-25
+`25`
 
 ## Accept Ranges
 #### Description

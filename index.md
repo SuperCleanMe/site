@@ -13,12 +13,12 @@ Frankly, SQL is old, and outdated, it has been in need of a refresh for a long t
 ## What is KQL?
 KQL is our in-house query language. It is designed to be __asynchronous__ and provide a powerful, yet efficient, and easy to follow query structure.
 
-## How can i use Kalavar?
+## How can I use Kalavar?
 Currently, Kalavar is under heavy development, most of the information on this page is a placeholder, providing an optimistic goal of the project, but until it is publicly released, this page is a goal page.
 
 TL;DR: You cannot, it is still being developed and is not publicly available at this time.
 
-## Im a developer, how do i write a library for Kalavar?
+## I'm a developer, how do I write a library for Kalavar?
 Again, due to us being in early development, no 3rd party library development is being encouraged, whilst we flesh out our transmission protocol. But, should you choose to begin work anyway, the [Documentation](documentation) might be a good place to look.
 
 ## Helping Test Kalavar:
