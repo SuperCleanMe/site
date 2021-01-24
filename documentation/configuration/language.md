@@ -18,7 +18,7 @@ The language config is there to define a set of naming conventions, and the logi
 |   Snake Case   | Not Applicable |     snake_case     |
 |   Kebab Case   | Not Applicable |     kebab-case     |
 | Screaming Case | Not Applicable |   SCREAMING_CASE   |
-|      None      | Not Applicable |        none        |]
+|      None      | Not Applicable |        none        |
 
 
 For the sake of not repeating the same thing many times over, the format for this section of the configuration file is the following:
