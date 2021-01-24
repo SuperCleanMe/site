@@ -12,17 +12,17 @@ The privacy section of the configuration file provides you with a way to opt int
 
 |Data                       |None |Minimal|Basic|Detailed|
 |:-------------------------:|:---:|:-----:|:---:|:------:|
-|Kalavar version            |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|CPU Make + Model           |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|Logical CPU cores          |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|Physical CPU cores         |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|Host OS                    |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|OS version                 |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|Core Frequency             |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|Disk overall usage*        |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|Total system memory (RAM)**|![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![✅](../../assets/images/tick.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|Disk partitions*           |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
-|Swap usage (RAM dump)**    |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)    |![❌](../../assets/images/cross.png =30x30)   |![✅](../../assets/images/tick.png =30x30)     |
+|Kalavar version            |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|CPU Make + Model           |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|Logical CPU cores          |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|Physical CPU cores         |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|Host OS                    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|OS version                 |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|Core Frequency             |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|Disk overall usage*        |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|Total system memory (RAM)**|![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![✅](https://kalavar.cf/assets/images/tick.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|Disk partitions*           |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
+|Swap usage (RAM dump)**    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)    |![❌](https://kalavar.cf/assets/images/cross.png =30x30)   |![✅](https://kalavar.cf/assets/images/tick.png =30x30)     |
 
 
 \* Kalavar will never share any of your files with us via these settings, we will only be able to see how many megabytes of data your system has, and the number of partitions you have on it.
