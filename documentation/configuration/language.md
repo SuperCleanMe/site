@@ -10,15 +10,15 @@ nav_order: 2
 # Configuration - Language
 The language config is there to define a set of naming conventions, and the logic behind enforcing those conventions. A full list of the conventions which are supported can be found below.
 
-|      Name      |    Variation   |     Identifier     |
-|:--------------:|:--------------:|:------------------:|
-|   Camel Case   |    Standard    |     CamelCase      |
-|   Camel Case   |    Microsoft   | microsoftCamelCase |
-|   Pascal Case  | Not Applicable |     PascalCase     |
-|   Snake Case   | Not Applicable |     snake_case     |
-|   Kebab Case   | Not Applicable |     kebab-case     |
-| Screaming Case | Not Applicable |   SCREAMING_CASE   |
-|      None      | Not Applicable |        none        |
+|      Name      |    Variation   |      Identifier      |
+|:--------------:|:--------------:|:--------------------:|
+|   Camel Case   |    Microsoft   |    UpperCamelCase    |
+|   Camel Case   |    Standard    |    lowerCamelCase    |
+|   Pascal Case  | Not Applicable |       PascalCase     |
+|   Snake Case   | Not Applicable |   UPPER_SNAKE_CASE   |
+|   Snake Case   | Not Applicable |   lower_snake_case   |
+|   Kebab Case   | Not Applicable |       kebab-case     |
+|      None      | Not Applicable |          none        |
 
 
 For the sake of not repeating the same thing many times over, the format for this section of the configuration file is the following:
