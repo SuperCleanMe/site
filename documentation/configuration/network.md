@@ -1,7 +1,7 @@
 ---
 has_children: false
 layout: default
-title: Language
+title: Network
 parent: Network
 grand_parent: Documentation
 nav_order: 1

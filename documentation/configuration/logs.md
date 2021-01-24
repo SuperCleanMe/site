@@ -1,7 +1,7 @@
 ---
 has_children: false
 layout: default
-title: Language
+title: Logs
 parent: Configuration
 grand_parent: Documentation
 nav_order: 3
