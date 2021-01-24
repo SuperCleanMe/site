@@ -12,17 +12,17 @@ The privacy section of the configuration file provides you with a way to opt int
 
 |Data                       |None |Minimal|Basic|Detailed|
 |:-------------------------:|:---:|:-----:|:---:|:------:|
-|Kalavar version            |❌    |✅     |✅   |✅     |
-|CPU Make + Model           |❌    |✅     |✅   |✅     |
-|Logical CPU cores          |❌    |✅     |✅   |✅     |
-|Physical CPU cores         |❌    |✅     |✅   |✅     |
-|Host OS                    |❌    |✅     |✅   |✅     |
-|OS version                 |❌    |✅     |✅   |✅     |
-|Core Frequency             |❌    |❌     |✅   |✅     |
-|Disk overall usage*        |❌    |❌     |✅   |✅     |
-|Total system memory (RAM)**|❌    |❌     |✅   |✅     |
-|Disk partitions*           |❌    |❌     |❌   |✅     |
-|Swap usage (RAM dump)**    |❌    |❌     |❌   |✅     |
+|Kalavar version            |❌    |✅    |✅   |✅     |
+|CPU Make + Model           |❌    |✅    |✅   |✅     |
+|Logical CPU cores          |❌    |✅    |✅   |✅     |
+|Physical CPU cores         |❌    |✅    |✅   |✅     |
+|Host OS                    |❌    |✅    |✅   |✅     |
+|OS version                 |❌    |✅    |✅   |✅     |
+|Core Frequency             |❌    |❌    |✅   |✅     |
+|Disk overall usage*        |❌    |❌    |✅   |✅     |
+|Total system memory (RAM)**|❌    |❌    |✅   |✅     |
+|Disk partitions*           |❌    |❌    |❌   |✅     |
+|Swap usage (RAM dump)**    |❌    |❌    |❌   |✅     |
 
 
 \* Kalavar will never share any of your files with us via these settings, we will only be able to see how many megabytes of data your system has, and the number of partitions you have on it.
