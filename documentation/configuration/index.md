@@ -21,7 +21,7 @@ A summary of each of these sections is below.
 The network configuration is the most vital part of the whole configuration file, with it you can define who can and cannot connect to your database and attempt to authenticate. By default the configuration will accept connections from your "localhost" (your computer), this means that only you will be able to connect, and nobody else on the network will be able to.
 
 ### [Language](./language.md)
-The language configuration section defines a set of rules to enforce upon things like database names, table names, column names, and even procedure names.
+The language configuration section defines a set of rules to enforce upon things like database names, table names, column names, and procedure names.
 
 ### [Logs](./logs.md)
 The log configuration section defines which types of logs you would like to allow by default. It also controls settings such as the location of log files, and if they get created at all
@@ -35,60 +35,37 @@ This is the default configuration file as currently documented here.
 
 ```toml
 [network]
-
 bind-port = 1234
-
 bind-address = "localhost"
-
 max-connections = 25
-
 accept-ranges = ["*"]
 
-
 [language]
-
 convention = "snake_case"
-
 force-convention = true
 
-
 database-convention = "snake_case"
-
 force-database-convention = true
 
-
 table-convention = "snake_case"
-
 force-table-convention = true
 
-
 column-convention = "snake_case"
-
 force-column-convention = true
 
-
 procedure-convention = "snake_case"
-
 force-procedure-convention = true
-
 
 [logs]
 path = "/var/lib/kalavar/logs"
-
 debug = true
-
 info = true
-
 log = true
-
 warn = true
-
 error = true
 
 log_to_file = true
 
-
 [privacy]
 mode = "none"
-
 ```
