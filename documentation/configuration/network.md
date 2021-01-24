@@ -44,4 +44,4 @@ The IP ranges can be specified using one of the following two notations:
 |Example|Name|Description|Breakdown|
 |:---:|:---:|:---:|:---:|
 |`192.168.1.1 - 192.168.1.255`|Range|Accepts any IP address between the lower and upper limit|`LOWER_LIMIT - UPPER_LIMIT`|
-|192.168.1.0/24|CIDR|Accepts any IP address which matches the specified bit width [see CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)|`BASE_ADDRESS/BIT_WIDTH` 
+|`192.168.1.0/24`|CIDR|Accepts any IP address which matches the specified bit width [see CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)|`BASE_ADDRESS/BIT_WIDTH` 
