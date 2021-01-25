@@ -4,6 +4,43 @@ layout: default
 title: Dev Logs
 nav_order: 3
 ---
+
+[comment]: <> (# Development Log - Week 5 {#week-5})
+
+[comment]: <> (## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.]&#40;https://github.com/fatalcenturion&#41;)
+
+[comment]: <> (### Posted on Monday, January 25th 2021)
+
+[comment]: <> (## Now's your chance to help shape the future of Kalavar! {#week-5-shape-kalavar})
+
+[comment]: <> (Oh yes, your eyes do not deceive you! Kalavar's dev team is looking for feedback on our configuration system, and we want you to help shape it!)
+
+[comment]: <> (If you want to provide some feedback, take a look at our [reference configuration file]&#40;https://github.com/KalavarDB/core/blob/main/sample-config.toml&#41;, and then provide some feedback on our [ongoing issue]&#40;https://github.com/KalavarDB/core/issues/25&#41;)
+
+
+
+[comment]: <> (## Other changes. {#week-5-other-changes})
+
+[comment]: <> (- Added [documentation for the current config file]&#40;https://kalavar.cf/documentation/configuration&#41;)
+
+[comment]: <> (- Expanded the documentation for the analytics manager)
+
+[comment]: <> (- Began working on the analytics manager)
+
+[comment]: <> (- Began adding external API for future utilities/"plugins")
+
+[comment]: <> (- Began refactoring storage manager to accept the transaction model)
+
+[comment]: <> (- Began writing unit tests for individual components)
+
+[comment]: <> (- Added some new features to the dev kit)
+
+
+
+[comment]: <> (Like what you see? Star us on [GitHub]&#40;https://github.com/fatalcenturion/kalavar-core&#41; to let us know!)
+
+[comment]: <> (----- )
+
 # Development Log - Week 4 {#week-4}
 
 ## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
