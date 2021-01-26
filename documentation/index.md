@@ -4,6 +4,5 @@ layout: default
 title: Documentation
 nav_order: 4
 ---
-# Protocol
-Welcome to the documentation for the protocol used by the Kalavar data storage system.
-In this documentation, you will find information on the following contents.
+# Documentation
+Welcome to the documentation for the Kalavar Data Storage and Retrieval System. Within this documentation you shall find information and explanations of our connection protocol, query language, data types, configurations, errors, and other items which have been released to the public via this website. If you are looking for more internal documentation, consider visiting our [developer website](https://dev.kalavar.cf).
