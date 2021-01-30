@@ -7,7 +7,7 @@ nav_order: 3
 
 # Development Log - Week 5 {#week-5}
 
-## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion)
+## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/AltriusRS)
 
 ### Posted on Monday, January 25th 2021
 
@@ -39,13 +39,13 @@ Changes this week have been primarily preparing for other parts of the project, 
 
 Thanks for taking the time to read this week's blog post, we look forward to sharing our progress with you in the future!
 
-Like what you see? Star us on [GitHub](https://github.com/fatalcenturion/kalavar-core) to let us know!
+Like what you see? Star us on [GitHub](https://github.com/KalavarDB/core) to let us know!
 
 -----
 
 # Development Log - Week 4 {#week-4}
 
-## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
+## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/AltriusRS) 
 ### Posted on Monday, January 18th 2021
 
 ## We launched a version checker {#week-4-version-checker}
@@ -62,13 +62,13 @@ We hope you find the version checker, and the internal docs useful, we sure will
 
 Thanks for reading, sorry this post was so short but there really wasn't much to share with you all. See you next week!
 
-Like what you see? Star us on [GitHub](https://github.com/fatalcenturion/kalavar-core) to let us know!
+Like what you see? Star us on [GitHub](https://github.com/KalavarDB/core) to let us know!
 
 ----- 
 
 # Development Log - Week 3 {#week-3}
 
-## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
+## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/AltriusRS) 
 ### Posted on Monday, January 11th 2021
 
 ## Nothing major, but still a worthy development blog {#week-3-nothing-but-worthy}
@@ -85,19 +85,19 @@ I also spent a large amount of time working out how to implement storage managem
 So to summarise, this week we did some research on how to authenticate the identity of a user and validate they are allowed to connect without using passwords, and we also worked on calculating theoretical limitations of the storage management system, as well as beginning to implement said storage system.
 
 
-Like what you see? Star us on [GitHub](https://github.com/fatalcenturion/kalavar-core) to let us know!
+Like what you see? Star us on [GitHub](https://github.com/KalavarDB/core) to let us know!
 
 ----- 
 
 # Development Log - Week 2 {#week-2}
 
-## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
+## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/AltriusRS) 
 ### Posted on Monday, January 4th 2021
 
 ## A busy week, and a few important milestones {#week-2-a-busy-week}
 This past week, we achieved a number of first time events, which represent small victories in our battle against the computer to bring Kalavar to the public. First of these milestones was:
 ### The first inter-process communication {#week-2-first-communication}
-This week we achieved the first inter-process communication of our program. This communication was produced by the REPL and CORE components of the database. The REPL component had been heavily modified at the time compared to the build on our [repository](https://github.com/fatalcenturion/kalavar-repl), so naturally, we pushed the build which achieved this to the repository for archival purposes.
+This week we achieved the first inter-process communication of our program. This communication was produced by the REPL and CORE components of the database. The REPL component had been heavily modified at the time compared to the build on our [repository](https://github.com/AltriusRS/kalavar-repl), so naturally, we pushed the build which achieved this to the repository for archival purposes.
 
 ### The first inter-thread communication {#week-2-first-thread}
 Another major event that happened this week, which we dubbed our "RAMpocalypse". We managed to successfully track the amount of memory our CORE system was using at regular runtime intervals, allowing us to report that to the main system thread for the program. This may seem trivial, but it is a big victory for us in bringing Kalavar closer to production. You may not agree with us, but actually it is the primary method of the program deciding when to move things into and out of system memory to and from the disk.
@@ -107,14 +107,14 @@ Although this weeks blog post was a short one, it was always going to be, we've 
 
 Thanks for reading this weeks development log, we hope you have enjoyed it!
 
-Like what you see? Star us on [GitHub](https://github.com/fatalcenturion/kalavar-core) to let us know!
+Like what you see? Star us on [GitHub](https://github.com/KalavarDB/core) to let us know!
 
 <sup>Note: This isnt a guaranteed weekly blog post, it depends on if we have time to write one or if there is sufficient progress to benefit creating one for</sup>
 ----- 
 
 # Development Log - Week 1 {#week-1}
 
-## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/fatalcenturion) 
+## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/AltriusRS) 
 ### Posted on Monday, December 28th 2020
 
 ## Meet Kalavar {#week-1-meet-kalavar}
@@ -136,4 +136,4 @@ Well, that's it folks, the first developer log is now finished, we hope you enjo
 
 For now though, goodbye from the Kalavar team.
 
-Like what you see? Star us on [GitHub](https://github.com/fatalcenturion/kalavar-core) to let us know!
+Like what you see? Star us on [GitHub](https://github.com/KalavarDB/core) to let us know!
