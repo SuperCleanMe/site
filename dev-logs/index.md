@@ -4,6 +4,27 @@ layout: default
 title: Dev Logs
 nav_order: 3
 ---
+# Development Log - Week 6 {#week-6}
+
+## This post was written by [<img src="https://avatars3.githubusercontent.com/u/63651404?s=60&v=4" width="20px" style="border-radius:25px;">  Thomas B.](https://github.com/AltriusRS)
+
+### Posted on Monday, February 1st 2021
+
+## Some important milestones {#week-6-important-milestones}
+This week, the dev team hit some important milestones. Chief amongst those were beginning to write the compiler for KQL, and generating the first ever keypair for a root user within a Kalavar database. These milestones both represent huge leaps in progress. They are the keys needed to continue to implement the code. Without the creation of that first keypair, we would not be able to continue writing anything to do with the core of the database, and without that compiler work being initialized, we would not have been able to be taken seriously. This week's milestones are so important to us.
+
+## We need feedback! {#week-6-need-feedback}
+We are still looking for help designing our [reference configuration file](https://github.com/KalavarDB/core/blob/main/sample-config.toml). If you have any, please post it on our [ongoing issue](https://github.com/KalavarDB/core/issues/25).
+We are also looking for some people to provide feedback on our [language documentation](https://kql.kalavar.cf/) and post that feedback in our [ongoing issue](https://github.com/KalavarDB/kql/issues/1).
+
+## Wrapping up the week {#week-6-wrapped-up}
+The Kalavar team hit several major milestones this week, and we hope that this pace can continue. Our goal is to provide a quality product to you guys, so we really do appreciate any feedback you give us. Please do check out our ongoing discussions and help us shape the best database we can for you.
+
+Thanks for taking the time to read this week's blog post, we look forward to sharing our progress with you in the future!
+
+Like what you see? Star us on [GitHub](https://github.com/KalavarDB/core) to let us know!
+
+-----
 
 # Development Log - Week 5 {#week-5}
 
